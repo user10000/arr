@@ -1,11 +1,9 @@
-package arr;
-
 import java.util.Arrays;
 import java.util.Random;
-import java.util.*;
 
 public class ObjArrayer {
-    private ObjArrayer() {
+    protected ObjArrayer() {
+        throw new RuntimeException();
     }
     
     public static<T> void reverse(T[] arr) {        
